@@ -1,3 +1,6 @@
-<p>
-  quote-item works!
-</p>
+<blockquote>
+  <p> {{quote.text}} </p>
+  <small> {{quote.author}} </small>
+
+  <button (click)="onQuoteDelete()"> Delete</button>
+</blockquote>
