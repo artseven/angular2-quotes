@@ -14,7 +14,9 @@ import { ContactComponent } from './contact/contact.component';
 import { CountersComponent } from './counters/counters.component';
 import { ChuckNorrisPageComponent } from './chuck-norris-page/chuck-norris-page.component';
 
+import { CharactersService } from './characters.service';
 
+// Routing table
 const routes: Routes = [
   //  http://localhost:4200/quotes
   { path: 'quotes', component: QuoteListComponent},
