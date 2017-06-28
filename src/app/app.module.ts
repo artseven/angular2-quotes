@@ -17,6 +17,7 @@ import { ChuckNorrisPageComponent } from './chuck-norris-page/chuck-norris-page.
 import { CharactersService } from './characters.service';
 import { CounterService } from './counter.service';
 import { MyCounterComponent } from './my-counter/my-counter.component';
+import { MySecondCounterComponent } from './my-second-counter/my-second-counter.component';
 
 // Routing table
 const routes: Routes = [
@@ -45,7 +46,8 @@ const routes: Routes = [
     CountersComponent,
     ChuckNorrisPageComponent,
     QuoteItemComponent,
-    MyCounterComponent
+    MyCounterComponent,
+    MySecondCounterComponent
   ],
   imports: [
     BrowserModule,
