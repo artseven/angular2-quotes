@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { CounterService } from '../my-services/counter.service'
+import { CounterService } from '../counter.service'
 
 
 @Component({

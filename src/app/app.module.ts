@@ -15,6 +15,7 @@ import { CountersComponent } from './counters/counters.component';
 import { ChuckNorrisPageComponent } from './chuck-norris-page/chuck-norris-page.component';
 
 import { CharactersService } from './characters.service';
+import { CounterService } from './counter.service';
 import { MyCounterComponent } from './my-counter/my-counter.component';
 
 // Routing table
@@ -52,7 +53,9 @@ const routes: Routes = [
     HttpModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [CharactersService],
+  providers: [CharactersService,
+              CounterService
+            ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
