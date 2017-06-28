@@ -15,6 +15,7 @@ import { CountersComponent } from './counters/counters.component';
 import { ChuckNorrisPageComponent } from './chuck-norris-page/chuck-norris-page.component';
 
 import { CharactersService } from './characters.service';
+import { MyCounterComponent } from './my-counter/my-counter.component';
 
 // Routing table
 const routes: Routes = [
@@ -42,7 +43,8 @@ const routes: Routes = [
     ContactComponent,
     CountersComponent,
     ChuckNorrisPageComponent,
-    QuoteItemComponent
+    QuoteItemComponent,
+    MyCounterComponent
   ],
   imports: [
     BrowserModule,
